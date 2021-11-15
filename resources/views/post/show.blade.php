@@ -51,7 +51,7 @@
                                             class="post-thumbnail">
                                         <p class="post-category">{{ $relatedPost->category->title }}</p>
                                         <a href="{{ route('post.show', $relatedPost->id) }}">
-                                            <h5 class="post-title">{{ $post->title }}</h5>
+                                            <h5 class="post-title">{{ $relatedPost->title }}</h5>
                                         </a>
                                     </div>
                                 @endforeach
